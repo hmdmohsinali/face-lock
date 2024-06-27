@@ -1,0 +1,28 @@
+{
+    "name": "face-lock",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "server": "nodemon ./api/index.js",
+      "start": "node ./api/index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "commonjs",
+    "keywords": [],
+    "author": "mohsin",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^1.7.2",
+      "body-parser": "^1.20.2",
+      "canvas": "^2.11.2",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2",
+      "face-api.js": "^0.22.2",
+      "mongoose": "^8.4.4"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.4"
+    }
+  }
+  
